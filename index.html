@@ -14,65 +14,66 @@
         }
 
         h1 {
-            color: #003366;
+            color: #1a3b75;
+            font-size: 60px;
         }
 
         h2 {
             color: #666;
+            font-size: 36px;
         }
 
         .subjects {
             display: flex;
-            gap: 20px;
+            gap: 30px;
             flex-wrap: wrap;
-            margin-top: 30px;
         }
 
-        .subject-card {
+        .card {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            width: 200px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             text-align: center;
         }
 
-        .subject-card a {
+        .card a {
             text-decoration: none;
-            color: #003366;
+            color: #1a3b75;
+            font-size: 24px;
             font-weight: bold;
-            font-size: 18px;
         }
 
-        .subject-card:hover {
-            transform: translateY(-3px);
+        .card:hover {
+            background: #eef4ff;
         }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to Maths Pulse</h1>
-    <h2>Select a Subject</h2>
+<h1>Welcome to Maths Pulse</h1>
 
-    <div class="subjects">
+<h2>Select a Subject</h2>
 
-        <div class="subject-card">
-            <a href="subjectsthematics</a>
-        </div>
+<div class="subjects">
 
-        <div class="subject-card">
-            <a href=/science/Science</a>
-        </div>
+    <div class="card">
+        <a href="subjects/maths/">Mathematics</a>
 
-        <div class="subject-card">
-            subjects/english/English</a>
-        </div>
-
-        <div class="subject-card">
-            <a href=/study-skills/Study Skills</a>
-        </div>
-
+    <div class="card">
+        subjects/science/Science</a>
     </div>
+
+    <div class="card">
+        <a hrefs/english/English</a>
+    </div>
+
+    <div class="card">
+        <a href="subjectsills/Study Skills</a>
+    </div>
+
+</div>
 
 </body>
 </html>
