@@ -1,12 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resources</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        h2 {
+            color: #666;
+        }
+
+        .subjects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .subject-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .subject-card a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
 <body>
+
     <h1>Welcome to Student Resources</h1>
+    <h2>Select a Subject</h2>
 
-    <h2>Subjects</h2>
+    <div class="subjects">
 
-    <ul>
-    <li>
-        <a href="maths/Mathematics</a>
-    </li>
-    </ul>
+        <div class="subject-card">
+            <a href="subjectsthematics</a>
+        </div>
+
+        <div class="subject-card">
+            <a href=/science/Science</a>
+        </div>
+
+        <div class="subject-card">
+            subjects/english/English</a>
+        </div>
+
+        <div class="subject-card">
+            <a href=/study-skills/Study Skills</a>
+        </div>
+
+    </div>
 
 </body>
+</html>
